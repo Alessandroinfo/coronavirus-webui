@@ -1,27 +1,51 @@
-# CoronavirusWebui
+:microscope: Coronavirus WebUI in Angular
+=========================================
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
+This is a web application developed with Angular that displays the latest statistics on the coronavirus epidemic in Italy and around the world. The app uses a Firebase database to retrieve and display the data.
 
-## Development server
+:rocket: Getting Started
+------------------------
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To run the application, you need to have Node.js and Angular CLI installed on your system. Follow the instructions below to install them:
 
-## Code scaffolding
+1.  Install Node.js from the [official website](https://nodejs.org/).
+2.  Install Angular CLI by running the following command in the terminal: `npm install -g @angular/cli`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Once Node.js and Angular CLI are installed, follow the steps below to run the application:
 
-## Build
+1.  Clone the repository to your local machine.
+2.  Navigate to the project folder in the terminal.
+3.  Run `npm install` to install all dependencies.
+4.  Create a Firebase project and database by following the instructions in the Firebase documentation.
+5.  Replace the Firebase configuration values in the `src/environments/environment.ts` file with your own Firebase configuration values.
+6.  Run `ng serve` to start the development server.
+7.  Navigate to `http://localhost:4200` in your web browser to view the application.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+:computer: Usage
+----------------
 
-## Running unit tests
+When you open the application, you will see the latest statistics on the coronavirus epidemic in Italy and around the world. The data is displayed on a single page, with the global and Italy totals at the top and the detailed table of regions at the bottom.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The global and Italy totals display the following statistics:
 
-## Running end-to-end tests
+-   Total cases
+-   Total deaths
+-   Total recoveries
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Click on a row in the region table to view detailed statistics for that region. The region table displays the following statistics for each region:
 
-## Further help
+-   Total cases
+-   Active cases
+-   Total deaths
+-   Total recoveries
+-   Total tests
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The data is retrieved from the Firebase database and updated every few minutes to ensure that the statistics are accurate.
+
+:raised_hands: Contributions
+----------------------------
+
+Contributions to this project are welcome. If you find a bug or have a feature request, open an issue on the GitHub repository. If you want to contribute to the code, fork the repository and create a pull request.
+
+## Final Result
+![img.png](img.png)

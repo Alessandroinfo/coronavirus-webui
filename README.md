@@ -1,10 +1,10 @@
-:microscope: Coronavirus WebUI in Angular
-=========================================
+🔬 Coronavirus WebUI in Angular
+===============================
 
 This is a web application developed with Angular that displays the latest statistics on the coronavirus epidemic in Italy and around the world. The app uses a Firebase database to retrieve and display the data.
 
-:rocket: Getting Started
-------------------------
+🚀 Getting Started
+------------------
 
 To run the application, you need to have Node.js and Angular CLI installed on your system. Follow the instructions below to install them:
 
@@ -21,8 +21,8 @@ Once Node.js and Angular CLI are installed, follow the steps below to run the ap
 6.  Run `ng serve` to start the development server.
 7.  Navigate to `http://localhost:4200` in your web browser to view the application.
 
-:computer: Usage
-----------------
+💻 Usage
+--------
 
 When you open the application, you will see the latest statistics on the coronavirus epidemic in Italy and around the world. The data is displayed on a single page, with the global and Italy totals at the top and the detailed table of regions at the bottom.
 
@@ -42,8 +42,8 @@ Click on a row in the region table to view detailed statistics for that region. 
 
 The data is retrieved from the Firebase database and updated every few minutes to ensure that the statistics are accurate.
 
-:raised_hands: Contributions
-----------------------------
+🙌 Contributions
+----------------
 
 Contributions to this project are welcome. If you find a bug or have a feature request, open an issue on the GitHub repository. If you want to contribute to the code, fork the repository and create a pull request.
 
